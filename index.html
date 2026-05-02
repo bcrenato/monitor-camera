@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor Hikvision - Nilópolis</title>
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+    <style>
+        body { margin: 0; background-color: #000; overflow: hidden; }
+        .video-js { width: 100vw; height: 100vh; }
+    </style>
+</head>
+<body>
+    <video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto" autoplay muted data-setup="{}">
+        <!-- O link abaixo deve ser um link HLS ou convertido via Proxy -->
+        <source src="SUA_URL_CONVERTIDA_AQUI" type="application/x-mpegURL">
+    </video>
+    <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+</body>
+</html>
