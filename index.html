@@ -13,6 +13,11 @@
     </style>
 </head>
 <body>
-    <iframe src="https://weekly-events-tourism-reduce.trycloudflare.com/video.html?src=cam1&mode=mse&autoplay=1&mute=1" allow="autoplay; fullscreen"></iframe>
+    <video id="v" autoplay playsinline muted style="width:100%; height:100%; object-fit:contain;"></video>
+
+<script>
+  // O link abaixo aponta direto para o fluxo MP4 do go2rtc
+  document.getElementById('v').src = "https://weekly-events-tourism-reduce.trycloudflare.com/api/stream.mp4?src=cam1";
+</script>
 </body>
 </html>
